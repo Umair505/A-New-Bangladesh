@@ -305,11 +305,17 @@ nav{
 .sub-btn{
     padding: 15px 34px;
     width: 150px;
-    height: 56px;
+    height: 80px;
     border: none;
     background-color: rgb(0, 106, 80);
-    color:#fff ;
     cursor: pointer;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
 }
 
 .btn-gap{
@@ -317,8 +323,27 @@ nav{
     align-items: center;
     gap: 0;
 }
+hr {
+    border: none;
+    border-top: 2px solid #d2cdcd;
+    width: 80%;
+    margin-bottom: 20px;
 
+}
 
+.icon{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    cursor: pointer;
+}
 
-
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 30px;
+}
 
